@@ -1,3 +1,6 @@
+''' Das folgende Programm fragt das Alter und den Kanton des Nutzers/der Nutzerin ab 
+und gibt Auskunft, ob er/sie Zigaretten kaufen darf '''
+
 # Fragt das Alter ab.
 alter = input("Wie alt bist Du? ")
 
