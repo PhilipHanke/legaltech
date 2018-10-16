@@ -28,6 +28,9 @@ def zigaretten_check(alter, location):
         print("Du darfst Zigaretten kaufen.")
     else:
         print("Zu jung!")
+# Hinweis: Dieser Code könnte effizienter geschrieben werden (tatsächlich wiederholt er sich etwas). 
+# Dafür wären der sogenannte "or"-Operator notwendig. Bisher haben wir nur "and" verwendet.
+
 
 # Schliesslich müssen wir die Funktion auch noch abrufen, damit sie ausgeführt wird.
 zigaretten_check(alter, location)
